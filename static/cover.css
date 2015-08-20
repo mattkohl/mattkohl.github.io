@@ -2,6 +2,9 @@
  * Globals
  */
 
+/* 'Rock Salt' */
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+
 /* Links */
 a,
 a:focus,
@@ -19,6 +22,12 @@ a:hover {
   border: 1px solid #fff;
 }
 
+hr.mbk {
+    border: 0;
+    height: 1px;
+    /*background: #ffffff;*/
+    background-image: linear-gradient(to right, #333, #ccc, #333);
+}
 
 /*
  * Base structure
@@ -34,6 +43,7 @@ body {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
+
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -104,6 +114,26 @@ body {
   }
 }
 
+/*
+ * tRR
+ */
+#tRR {
+    margin-bottom: 2em;
+}
+
+#tRR a {
+    color: #fff;
+    font-size: 2em;
+	font-weight: 700;
+	font-family: 'Rock Salt', cursive;
+    text-decoration: none;
+	z-index: 10;
+}
+
+#tRR a:hover {
+    color: #3399FF;
+    text-decoration: none;
+}
 
 /*
  * Cover
