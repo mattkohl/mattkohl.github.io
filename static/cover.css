@@ -26,7 +26,7 @@ hr.mbk {
     border: 0;
     height: 1px;
     /*background: #ffffff;*/
-    background-image: linear-gradient(to right, #333, #ccc, #333);
+    background-image: linear-gradient(to right, #333, #aaa, #333);
 }
 
 /*
@@ -36,7 +36,7 @@ hr.mbk {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #222;
 }
 body {
   color: #fff;
@@ -128,12 +128,30 @@ body {
 	font-family: 'Rock Salt', cursive;
     text-decoration: none;
 	z-index: 10;
+    transition: all .3s ease-in-out;
 }
 
 #tRR a:hover {
     color: #3399FF;
     text-decoration: none;
 }
+
+#RapLyricist a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    font-size: 2em;
+	font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .3s ease-in-out;
+}
+
+#RapLyricist a:hover {
+    color: #3399FF;
+    text-decoration: none;
+}
+
 
 /*
  * Cover
