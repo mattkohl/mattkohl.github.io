@@ -4,8 +4,8 @@
 /* 'Rock Salt' */
 @import url(http://fonts.googleapis.com/css?family=Rock+Salt);
 
-/* 'Open Sans' */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600);
+/* 'Ubuntu' */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
 
 /* Links */
 a,
@@ -40,7 +40,7 @@ body {
     height: 100%;
     background-color: #222;
 	font-size: 100%;
-	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 body {
@@ -73,7 +73,6 @@ body {
 
 .mbk-heading {
     size: 3em;
-    text-transform: uppercase;
 }
 
 /* Padding for spacing */
