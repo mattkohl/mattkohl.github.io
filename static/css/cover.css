@@ -3,9 +3,8 @@
  */
 /* 'Rock Salt' */
 @import url(http://fonts.googleapis.com/css?family=Rock+Salt);
-
-/* 'Ubuntu' */
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+/* 'Oswald' */
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
 
 /* Links */
 a,
@@ -24,11 +23,10 @@ a:hover {
     border: 1px solid #fff;
 }
 
-hr.mbk {
+hr {
     border: 0;
     height: 1px;
-    /*background: #ffffff;*/
-    background-image: linear-gradient(to right, #333, #aaa, #333);
+    color: #a9a9a9;
 }
 
 /*
@@ -39,8 +37,8 @@ html,
 body {
     height: 100%;
     background-color: #222;
-	font-size: 100%;
-	font-family: 'Ubuntu', sans-serif;
+    font-size: 100%;
+    font-family: 'Oswald';
 }
 
 body {
@@ -49,6 +47,78 @@ body {
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+.social-icons {
+    margin-top: .5em;
+}
+
+.social-icons a {
+    font-size: 2.5em;
+    padding: .25em;
+}
+
+.head-text {
+    padding: 80px 0 0 0;
+    min-height: 215px;
+    color: #fff;
+    font-size: 2em;
+    /*text-shadow: #000 0px 2px 4px;*/
+    text-align: center;
+}
+
+.tagline {
+    margin: 20px 0 0;
+    font-size: 2em;
+    font-weight: 600;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.sub-tagline {
+    font-size: 1em;
+    margin: .5em 0 1em 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.lift-text .tagline {
+    margin: 0;
+}
+
+.lift-text .sub-tagline {
+    opacity: 1;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -69,10 +139,6 @@ body {
 .cover-container {
     margin-right: auto;
     margin-left: auto;
-}
-
-.mbk-heading {
-    size: 3em;
 }
 
 /* Padding for spacing */
@@ -164,7 +230,7 @@ body {
 }
 
 #RapLyricist a:hover {
-    color: #3399FF;
+    color: #000;
     text-decoration: none;
 }
 
