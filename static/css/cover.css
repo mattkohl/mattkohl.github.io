@@ -24,9 +24,9 @@ a:hover {
 }
 
 hr {
-    border: 0;
     height: 1px;
     color: #a9a9a9;
+    opacity: 0.3;
 }
 
 /*
@@ -201,6 +201,7 @@ body {
  */
 #tRR {
     margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 #tRR a {
@@ -230,7 +231,7 @@ body {
 }
 
 #RapLyricist a:hover {
-    color: yellow;
+    color: red;
     text-decoration: none;
 }
 
