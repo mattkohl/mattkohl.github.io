@@ -27,6 +27,8 @@ hr {
     height: 1px;
     color: #a9a9a9;
     opacity: 0.3;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /*
@@ -50,7 +52,7 @@ body {
 }
 
 .social-icons {
-    margin-top: .5em;
+    margin-bottom: .5em;
 }
 
 .social-icons a {
@@ -201,7 +203,7 @@ body {
  */
 #tRR {
     margin-bottom: 2em;
-    margin-top: 2em;
+    margin-top: 2.5em;
 }
 
 #tRR a {
