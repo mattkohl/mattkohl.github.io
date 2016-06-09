@@ -236,6 +236,28 @@ body {
     text-decoration: none;
 }
 
+#myBlocks {
+    margin-bottom: 2em;
+    margin-top: 2em;
+
+}
+
+#myBlocks a {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+    z-index: 10;
+    transition: all .3s ease-in-out;
+}
+
+#myBlocks a:hover {
+    color: #ffdb00;
+    text-decoration: none;
+}
+
+
 /*
  * Cover
  */
