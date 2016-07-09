@@ -26,7 +26,7 @@ a:hover {
 hr {
     height: 1px;
     color: #a9a9a9;
-    opacity: 0.3;
+    opacity: 0.15;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -41,10 +41,7 @@ body {
     background-color: #222;
     font-size: 100%;
     font-family: 'Oswald';
-}
-
-body {
-    background-image: url("../img/ldn.jpg");
+    background-image: url("../img/ldn-dark.jpg");
     background-size: cover;
     color: #fff;
     text-align: center;
