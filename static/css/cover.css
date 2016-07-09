@@ -313,3 +313,9 @@ body {
         width: 700px;
     }
 }
+
+@media (max-width: 320px) {
+    body {
+        font-size: 92%;
+    }
+}
