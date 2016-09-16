@@ -217,14 +217,19 @@ body {
     text-decoration: none;
 }
 
+@font-face {
+    font-family: aaaiight-fat;
+    src: url(aaaiight-fat.ttf);
+}
+
 #RapLyricist a {
-    text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-family: 'aaaiight-fat', cursive;
     color: #fff;
     font-size: 2em;
     font-weight: 700;
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     transition: all .3s ease-in-out;
 }
 
