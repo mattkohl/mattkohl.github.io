@@ -1,3 +1,7 @@
+.sep {
+    opacity: .7;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -332,6 +336,9 @@ hr {
 @media (max-width: 750px) {
     .container {
         top: 40px !important;
+    }
+    .social-icons {
+        font-size: 2em;
     }
 }
 
