@@ -1,14 +1,10 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://mattkohl.com/sitemap.xml</loc>
-        <lastmod>2015-12-04</lastmod>
+        <loc>https://mattkohl.com/sitemap.xml</loc>
+        <lastmod>2023-01-20</lastmod>
     </url>
     <url>
-        <loc>http://mattkohl.com/OGL_Symposium</loc>
-        <lastmod>2015-12-04</lastmod>
-    </url>
-    <url>
-        <loc>http://mattkohl.com/</loc>
-        <lastmod>2015-12-04</lastmod>
+        <loc>https://mattkohl.com/</loc>
+        <lastmod>2023-01-20</lastmod>
     </url>
 </urlset>
